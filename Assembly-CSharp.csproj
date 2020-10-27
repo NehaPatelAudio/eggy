@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{633954EC-1E45-B919-0718-C41730954097}</ProjectGuid>
+    <ProjectGuid>{8E462DD2-3A32-B81D-C9F7-A36140544A5C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,37 +63,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Barking_Dog\Common Scripts\MouseLook.cs" />
+    <Compile Include="Assets\_Barking_Dog\Common Scripts\Turn_Move.cs" />
+    <Compile Include="Assets\CameraFollow.cs" />
+    <Compile Include="Assets\MovementController.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <None Include="Assets\_Barking_Dog\Readme_Please.txt" />
     <None Include="Assets\Catgear Games\Model Pack 1\Kiwi\README.txt" />
     <None Include="Assets\Catgear Games\Model Pack 1\Chili\README.txt" />
     <None Include="Assets\Catgear Games\Model Pack 1\Eggy\README.txt" />
     <None Include="Assets\Catgear Games\Model Pack 1\Langsat\README.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/neha_/Desktop/UnityProjects/Pixelles Incubator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/neha_/Desktop/UnityProjects/eggy/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/neha_/Desktop/UnityProjects/Pixelles Incubator/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/neha_/Desktop/UnityProjects/eggy/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/neha_/Desktop/UnityProjects/Pixelles Incubator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/neha_/Desktop/UnityProjects/eggy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/neha_/Desktop/UnityProjects/Pixelles Incubator/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/neha_/Desktop/UnityProjects/eggy/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/neha_/Desktop/UnityProjects/Pixelles Incubator/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/neha_/Desktop/UnityProjects/eggy/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/neha_/Desktop/UnityProjects/Pixelles Incubator/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/neha_/Desktop/UnityProjects/eggy/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/neha_/Desktop/UnityProjects/Pixelles Incubator/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/neha_/Desktop/UnityProjects/eggy/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/neha_/Desktop/UnityProjects/Pixelles Incubator/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/neha_/Desktop/UnityProjects/eggy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/neha_/Desktop/UnityProjects/Pixelles Incubator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/neha_/Desktop/UnityProjects/eggy/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
