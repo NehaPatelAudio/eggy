@@ -66,8 +66,10 @@
     <Compile Include="Assets\_Barking_Dog\Common Scripts\MouseLook.cs" />
     <Compile Include="Assets\_Barking_Dog\Common Scripts\Turn_Move.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
+    <Compile Include="Assets\CameraFollowPlayer.cs" />
     <Compile Include="Assets\MovementController.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\SpawnObject.cs" />
     <None Include="Assets\_Barking_Dog\Readme_Please.txt" />
     <None Include="Assets\Catgear Games\Model Pack 1\Kiwi\README.txt" />
     <None Include="Assets\Catgear Games\Model Pack 1\Chili\README.txt" />
