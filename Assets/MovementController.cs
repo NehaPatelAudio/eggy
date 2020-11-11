@@ -15,6 +15,7 @@ public class MovementController : MonoBehaviour
     public int numberofBars;
     public GoldBar goldbar;
     public Text counter;
+    
 
     private Transform mainCameraTransform = null;
 
@@ -54,7 +55,7 @@ public class MovementController : MonoBehaviour
 
                 Debug.Log("attempt deactiate gold bar");
                 
-                    numberofBars = numberofBars + 1;
+                    numberofBars = numberofBars + goldbar.goldbarstoadd;
                 counter.text = numberofBars.ToString();
                 
             }

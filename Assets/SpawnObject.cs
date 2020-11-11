@@ -7,6 +7,9 @@ public class SpawnObject : MonoBehaviour
     public Transform Spawnpoint; 
     public GameObject Prefab;
     bool hasSpawned = false;
+    public GameObject VictoriaPrefab;
+    public Transform VictoriaSpawnpoint;
+    
     void OnTriggerEnter(Collider collider)
     {
         MovementController movementController = collider.GetComponent<MovementController>();
@@ -25,8 +28,15 @@ public class SpawnObject : MonoBehaviour
             hasSpawned = true;
 
             Debug.Log("objectspawned");
+            //spawn victoria
+
+            Instantiate(VictoriaPrefab, VictoriaSpawnpoint.position, VictoriaSpawnpoint.rotation);
+                
+
 
             return true;
+            
+
 
             
         }

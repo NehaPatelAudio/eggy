@@ -72,6 +72,7 @@
     <Compile Include="Assets\MovementController.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\SpawnObject.cs" />
+    <Compile Include="Assets\VictoriaSpawn.cs" />
     <None Include="Assets\_Barking_Dog\Readme_Please.txt" />
     <None Include="Assets\Catgear Games\Model Pack 1\Kiwi\README.txt" />
     <None Include="Assets\Catgear Games\Model Pack 1\Chili\README.txt" />
