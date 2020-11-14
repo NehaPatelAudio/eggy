@@ -21,6 +21,7 @@ public class MovementController : MonoBehaviour
 
     private CharacterController controller = null;
     private Animator animator = null;
+    
 
     private void Start()
 
