@@ -9,10 +9,11 @@ public class SpawnObject : MonoBehaviour
     bool hasSpawned = false;
     public GameObject VictoriaPrefab;
     public Transform VictoriaSpawnpoint;
+    public MovementController movementController;
     
     void OnTriggerEnter(Collider collider)
     {
-        MovementController movementController = collider.GetComponent<MovementController>();
+         movementController = collider.GetComponent<MovementController>();
         if(movementController != null)
         {
             movementController.target = this;
@@ -30,7 +31,14 @@ public class SpawnObject : MonoBehaviour
             Debug.Log("objectspawned");
             //spawn victoria
 
-            Instantiate(VictoriaPrefab, VictoriaSpawnpoint.position, VictoriaSpawnpoint.rotation);
+            GameObject VictoriaSpawn = Instantiate(VictoriaPrefab, VictoriaSpawnpoint.position, VictoriaSpawnpoint.rotation);
+
+            VictoriaMove victoriaMove = VictoriaSpawn.GetComponent<VictoriaMove>();
+
+            victoriaMove.movement = movementController;
+
+
+            
                 
 
 
