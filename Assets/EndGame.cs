@@ -6,7 +6,7 @@ public class EndGame : MonoBehaviour
 {
     public MovementController movement;
     public GameObject endScreen;
-    
+    public int Totalbarsneeded = 20;
 
 
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class EndGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (movement.numberofBars == 1)
+        if (movement.numberofBars == Totalbarsneeded)
         {
             print("EndGame");
             endScreen.SetActive(true);

@@ -58,7 +58,9 @@ public class MovementController : MonoBehaviour
                 
                     numberofBars = numberofBars + goldbar.goldbarstoadd;
                 counter.text = numberofBars.ToString();
-                
+
+                goldbar = null;
+
             }
         }
         
