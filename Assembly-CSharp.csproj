@@ -69,8 +69,10 @@
     <Compile Include="Assets\CameraFollowPlayer.cs" />
     <Compile Include="Assets\EndGame.cs" />
     <Compile Include="Assets\GoldBar.cs" />
+    <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\MovementController.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\PostWwiseEvent.cs" />
     <Compile Include="Assets\SpawnObject.cs" />
     <Compile Include="Assets\VictoriaMove.cs" />
     <Compile Include="Assets\VictoriaSpawn.cs" />
@@ -283,13 +285,32 @@
     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseUp.cs" />
     <Compile Include="Assets\Wwise\Extensions\AkSoundEngine.extensions.cs" />
     <None Include="Assets\_Barking_Dog\Readme_Please.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\StreamingAssets\desc.txt" />
     <None Include="Assets\Catgear Games\Model Pack 1\Kiwi\README.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Catgear Games\Model Pack 1\Chili\README.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\WwiseSettings.xml" />
+    <None Include="Assets\TGU Skybox Pack\Readme.txt" />
     <None Include="Assets\Wwise\Version.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Catgear Games\Model Pack 1\Eggy\README.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Catgear Games\Model Pack 1\Langsat\README.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/neha_/Desktop/UnityProjects/eggy/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
