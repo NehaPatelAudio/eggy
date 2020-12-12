@@ -93,6 +93,11 @@ public class MovementController : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(desiredMoveDirection), rotationSpeed);
 
         }
+       // if (Input.GetButtonDown("Jump"))
+        {
+            //gravityVector.y += 20f;
+        }
+
 
         float targetSpeed = movementSpeed * movementInput.magnitude;
         currentSpeed = Mathf.SmoothDamp(currentSpeed, targetSpeed, ref speedSmoothVelocity, speedSmoothTime);
